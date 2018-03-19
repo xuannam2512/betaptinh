@@ -1,0 +1,37 @@
+body {
+	background: url(img/bg.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.box {
+	margin: 20%;
+	padding: 15%;
+	border-color: black;
+	background: rgba(0,0,0,0.5);
+	text-align: center;
+}
+
+.box .box-inputting {
+	float: left;
+	font-size: 20px;
+}
+
+.box .box-checking {
+	float: left;
+	margin: 4% auto auto 10%;
+	border: 2px solid;
+	padding: 3%;
+	font-size: 20px;
+}
+
+.box .box-button {
+	margin: 10% auto;
+}
+
+.box .box-button button {
+	height: 50px;
+	width: 150px;
+	border-radius: 3%;
+	border: 0px;
+	font-size: 20px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Be Tap Tinh</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<script type="text/javascript" src="code.js"></script>
+</head>
+
+<body>
+	<div class="box">
+		<h1>Be Tap Tinh</h1>
+			<div style="width: 500px; height: 100px;">
+				<div class="box-inputting">
+					First Number: <br>
+					<input type="number" name="FirstNumber" id="firstNum"> <br>
+					First Number: <br>
+					<input type="number" name="FirstNumber" id="secondNum">
+				</div>
+				<div class="box-checking">
+					<form>
+						<input type="radio" name="calculator" value="Cong" id="plus" checked=""> Cong
+						<input type="radio" name="calculator" value="Tru" id="sub"> Tru
+						<br>
+						<input type="radio" name="calculator" value="Nhan" id="mul"> Nhan
+						<input type="radio" name="calculator" value="Chia" id="div"> Chia
+					</form>					
+				</div>	
+			</div>
+		
+			<div class="box-button">
+				<button onclick="TinhToan2So()">Calculate</button>
+			</div>	
+			Ket qua:
+			<input type="text" name="ketqua" id="result" value="0">
+		
+	</div>	
+</html>
